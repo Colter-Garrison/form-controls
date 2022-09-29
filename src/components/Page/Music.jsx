@@ -9,7 +9,7 @@ export default function Music() {
       <form className={styles.form}>
         <label>
           Name:
-          <input name="name" placeholder="Your Name" />
+          <input name="name" placeholder="Your Name" required />
         </label>
 
         <fieldset className={styles.radio}>
@@ -26,7 +26,7 @@ export default function Music() {
 
         <label>
           <p>Rock N Roll?</p>
-          <select>
+          <select required>
             <option disabled selected value="">
               Select an option
             </option>
@@ -38,7 +38,7 @@ export default function Music() {
 
         <label className={styles.text}>
           How hard do you Rock N Roll?
-          <textarea name="bio" placeholder="Do you 🤘 ?" />
+          <textarea name="bio" placeholder="Do you 🤘 ?" required />
         </label>
         <input className={styles.submit} type="submit" value="Rock On!" />
       </form>
