@@ -14,14 +14,14 @@ export default function Music() {
 
         <fieldset className={styles.radio}>
           <legend>Does this amp go to 11?</legend>
-          <div>
+          <label>
             <input type="radio" name="amp" value="true" checked />
-            <label>True</label>
-          </div>
-          <div>
+            True
+          </label>
+          <label>
             <input type="radio" name="amp" value="false" />
-            <label>False</label>
-          </div>
+            False
+          </label>
         </fieldset>
 
         <label>
