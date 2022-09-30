@@ -13,24 +13,3 @@
     flex-direction: row;
   }
 }
-
-.form {
-  background-color: antiquewhite;
-  display: grid;
-  gap: 10px;
-  padding: 10px;
-}
-
-.radio {
-  display: flex;
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-}
-
-.submit {
-  width: fit-content;
-}
